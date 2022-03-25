@@ -1,0 +1,74 @@
+[
+    {
+        "id": "623de97c48c99a5dc0e2efa2",
+        "price": "$445,455.08",
+        "picture": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?size=626&ext=jpg",
+        "company": "Toyota"
+    },
+    {
+        "id": "623de97cd71aa98d3c814fbb",
+        "price": "$366,750.63",
+        "picture": "https://img.freepik.com/free-photo/silver-metallic-color-sport-sedan-road_114579-5035.jpg?size=626&ext=jpg",
+        "company": "Volkswagen"
+    },
+    {
+        "id": "623de97c4d08f0550844bd6f",
+        "price": "$667,796.32",
+        "picture": "https://img.freepik.com/free-photo/silver-color-mini-coupe-road-drive-sunlight_114579-5050.jpg?size=626&ext=jpg",
+        "company": "Daimler"
+    },
+    {
+        "id": "623de97c9ca9a3ff6eebf5b9",
+        "price": "$163,843.10",
+        "picture": "https://img.freepik.com/free-photo/white-sport-sedan-with-colorful-tuning-road_114579-5044.jpg?size=626&ext=jpg",
+        "company": "Ford Motor"
+    },
+    {
+        "id": "623de97c18cb60b2d7903846",
+        "price": "$395,643.55",
+        "picture": "https://img.freepik.com/free-photo/blue-sport-sedan-parked-yard_114579-5078.jpg?size=626&ext=jpg",
+        "company": "Honda"
+    },
+    {
+        "id": "623de97c0a23b0e067926d86",
+        "price": "$337,811.83",
+        "picture": "https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?size=626&ext=jpg",
+        "company": "Jeep"
+    },
+    {
+        "id": "623de97c8d9508f67462887e",
+        "price": "$122,344.35",
+        "picture": "https://img.freepik.com/free-photo/closeup-shot-grey-car-front-building_181624-27502.jpg?size=626&ext=jpg",
+        "company": "Nissan"
+    },
+    {
+        "id": "623de97cfb157ac1db6ea386",
+        "price": "$326,744.90",
+        "picture": "https://img.freepik.com/free-photo/black-luxury-sport-car-driving-accross-forest_114579-4039.jpg?size=626&ext=jpg",
+        "company": "Mercedes-Benz"
+    },
+    {
+        "id": "623de97c86ce5dd668507073",
+        "price": "$497,989.07",
+        "picture": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?size=626&ext=jpg",
+        "company": "BMW"
+    },
+    {
+        "id": "623de97c89b3b88f4a49d631",
+        "price": "$152,789.85",
+        "picture": "https://img.freepik.com/free-photo/grey-metallic-jeep-with-blue-stripe-it_114579-4080.jpg?size=626&ext=jpg",
+        "company": "Mercedes-Benz"
+    },
+    {
+        "id": "623de97c7770d9d5fe79280d",
+        "price": "$710,547.44",
+        "picture": "https://img.freepik.com/free-photo/red-black-sport-cars-racing-highway_114579-4069.jpg?size=626&ext=jpg",
+        "company": "Volkswagen"
+    },
+    {
+        "id": "623de97c41dd7b6b33241dc5",
+        "price": "$592,256.44",
+        "picture": "https://img.freepik.com/free-photo/white-modern-sport-car-parking-road_114579-4025.jpg?size=626&ext=jpg",
+        "company": "Hyundai"
+    }
+]
