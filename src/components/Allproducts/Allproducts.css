@@ -8,8 +8,10 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     margin: 0px 30px;
+    color: antiquewhite;
 }
 
 .cart-container{
-    background-color: rgba(255, 153, 0, 0.3);
+    background-color: #282c34;
+    border: 5px solid whitesmoke;
 }
