@@ -18,7 +18,7 @@ const Allproducts = () => {
     return (
         <div className='products-container'>
             <div className='all-products'>
-
+                {cars.map(car => <Car key={car.id} cars={car} ></Car>)}
             </div>
             <div className='cart-container'>
                 <h1>helloooo</h1>
