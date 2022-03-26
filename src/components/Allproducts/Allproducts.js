@@ -7,7 +7,7 @@ import './Allproducts.css'
 const Allproducts = () => {
 
     const [cars, setCars] = useState([])
-    const [sigleCarts, setsingleCart] = useState([])
+    let [sigleCarts, setsingleCart] = useState([])
 
 
     useEffect(() => {
@@ -23,6 +23,27 @@ const Allproducts = () => {
         console.log(sigleCarts);
     }
 
+    const [seletedItem, setseletedItem] = useState([])
+
+
+    function chooseOne() {
+        // console.log(sigleCarts)
+        let oneItem = '';
+        if (sigleCarts) {
+            oneItem = sigleCarts[Math.floor(Math.random() * sigleCarts.length)];
+        }
+        // console.log(oneItem);
+        setseletedItem(oneItem);
+        //console.log(oneSeleted);
+    }
+
+    //console.log(oneSeleted);
+
+    function remove() {
+        setsingleCart([]);
+        setseletedItem([]);
+    }
+
     return (
         <div className='products-container'>
             <div className='all-products'>
@@ -34,12 +55,15 @@ const Allproducts = () => {
             </div>
             <div className='cart-container'>
 
-                {/* <Cart cart={sigleCarts}></Cart> */}
                 <h2>Select Car</h2>
                 {sigleCarts.map(data => <Cart key={data.id} cart={data}></Cart>)}
-                <button className='cart-button'>CHOOSE 1 FOR ME</button>
-                <button className='cart-button'>CHOOSE AGAIN</button>
+                <button onClick={chooseOne} className='cart-button'>CHOOSE 1 FOR ME</button>
+                <button onClick={remove} className='cart-button'>CHOOSE AGAIN</button>
+                <img className='choose-img' src={seletedItem?.picture} alt="" />
+                <h1>{seletedItem.company}</h1>
             </div>
+
+
 
         </div>
 

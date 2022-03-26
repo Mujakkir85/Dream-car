@@ -3,7 +3,7 @@ import './Cart.css'
 
 
 const Cart = ({ cart }) => {
-    console.log(cart);
+    // console.log(cart);
     const { picture, company } = cart
 
     return (
