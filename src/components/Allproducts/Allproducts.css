@@ -44,6 +44,9 @@
     border-radius: 10px;
 }
 
+.show-choose{
+    display: none;
+}
 
 @media screen and (max-width:600px){
     .products-container{
