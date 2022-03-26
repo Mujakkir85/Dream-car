@@ -1,6 +1,4 @@
 .cart{
-    position: sticky;
-    top: 0;
     padding: 30px 20px;
     color: antiquewhite;
 }
@@ -9,7 +7,6 @@
     display: flex;
     color: antiquewhite;
     align-items: center;
-    /*justify-content: center;*/
 }
 
 .cart-details img{

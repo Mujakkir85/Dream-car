@@ -1,6 +1,7 @@
 .products-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
+    position: re;
 }
 
 .all-products{
@@ -15,7 +16,13 @@
     background-color: #282c34;
     border: 3px solid whitesmoke;
     border-radius: 10px;
+    margin-right: 10px;
 }
+
+/* .fixed-postion{
+   position: sticky;
+   top: 0;
+} */
 
 .cart-container h1, h2{
     color: antiquewhite;
@@ -37,3 +44,14 @@
     border-radius: 10px;
 }
 
+
+@media screen and (max-width:600px){
+    .products-container{
+        grid-template-columns: 100%;
+    }
+
+    .all-products{
+        padding-bottom: 30px;
+        grid-template-columns: 100%;
+    }
+}

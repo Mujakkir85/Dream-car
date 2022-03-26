@@ -57,10 +57,12 @@ const Allproducts = () => {
 
                 <h2>Select Car</h2>
                 {sigleCarts.map(data => <Cart key={data.id} cart={data}></Cart>)}
+
                 <button onClick={chooseOne} className='cart-button'>CHOOSE 1 FOR ME</button>
                 <button onClick={remove} className='cart-button'>CHOOSE AGAIN</button>
                 <img className='choose-img' src={seletedItem?.picture} alt="" />
                 <h1>{seletedItem.company}</h1>
+
             </div>
 
 
