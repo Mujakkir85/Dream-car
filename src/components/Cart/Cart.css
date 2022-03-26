@@ -5,11 +5,14 @@
     color: antiquewhite;
 }
 
-.cart button{
-    padding: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    margin: 5px;
-    border-radius: 5px;
-    cursor: pointer;
+.cart-details{
+    display: flex;
+    color: antiquewhite;
+}
+
+.cart-details img{
+    width: 20%;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
 }

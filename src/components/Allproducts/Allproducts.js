@@ -18,12 +18,10 @@ const Allproducts = () => {
     }, [])
 
     const addToCart = (value) => {
-        console.log(value);
+        //console.log(value);
         setsingleCart([...sigleCarts, value]);
         console.log(sigleCarts);
     }
-
-
 
     return (
         <div className='products-container'>
@@ -35,10 +33,12 @@ const Allproducts = () => {
                 ></Car>)}
             </div>
             <div className='cart-container'>
-                <h2>{sigleCarts.length}</h2>
-                {/* <Cart>
-                    
-                </Cart> */}
+
+                {/* <Cart cart={sigleCarts}></Cart> */}
+                <h2>Select Car</h2>
+                {sigleCarts.map(data => <Cart key={data.id} cart={data}></Cart>)}
+                <button className='cart-button'>CHOOSE 1 FOR ME</button>
+                <button className='cart-button'>CHOOSE AGAIN</button>
             </div>
 
         </div>
