@@ -6,7 +6,10 @@ const Cart = () => {
     return (
 
         <div className='cart'>
-            <h2>fdhsdhsdf</h2>
+            <h2>Select Car</h2>
+
+            <button>CHOOSE 1 FOR ME</button>
+            <button>CHOOSE AGAIN</button>
         </div>
 
     );
